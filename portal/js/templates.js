@@ -1082,7 +1082,7 @@ angular.module('appservices').run(['$templateCache', function($templateCache) {
 
 
   $templateCache.put('global/appswitcher-template.html',
-    "<li id=\"globalNav\" class=\"dropdown dropdownContainingSubmenu active\">\n" +
+    "<!--li id=\"globalNav\" class=\"dropdown dropdownContainingSubmenu active\">\n" +
     "  <a class=\"dropdown-toggle\" data-toggle=\"dropdown\">API Platform<b class=\"caret\"></b></a>\n" +
     "  <ul class=\"dropdown-menu pull-right\">\n" +
     "    <li id=\"globalNavSubmenuContainer\">\n" +
@@ -1115,7 +1115,7 @@ angular.module('appservices').run(['$templateCache', function($templateCache) {
     "      </div>\n" +
     "    </li>\n" +
     "  </ul>\n" +
-    "</li>"
+    "</li-->"
   );
 
 
